@@ -95,3 +95,81 @@ for (let i = 0; i < 3; i++) {
 
 // console.log(result);
 
+// let num = 20;
+
+// function showFirstMessage(text) {
+//     console.log(text);
+//     num = 10;
+//     let a = 5;
+// }
+
+// showFirstMessage("Hello world");
+
+// console.log(a);
+
+// function calc(a, b) {
+//     return (a + b);
+// }
+
+// console.log(calc(4, 3));
+// console.log(calc(6, 25));
+// console.log(calc(-1, 10));
+
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+// const usdCurr = 28;
+// const eurCurr = 23;
+// const rubCurr = 50;
+
+// function convert(amount, curr) {
+//     console.log(curr * amount);
+// }
+
+// convert(500, usdCurr);
+// convert(500, eurCurr);
+
+// function getMathResult(a, b) {
+//     if (typeof(b) != 'number' || b <= 0) {
+//         return a;
+//     }
+
+//     let c = '';
+
+//     for (let i = 1; i <= b; i++) {
+//         if (i == b) {
+//             c += `${a * i}`;
+//         }else {
+//             c += `${a * i}---`;
+//         }
+//     }
+//     return c;
+// }
+
+// const fruit = 'Some fruit';
+
+// console.log(fruit.indexOf('f'));
+
+// const logg = 'Hello world';
+
+// console.log(logg.slice(6, 10));
+
+// console.log(logg.substring(6, 11));
+
+// console.log(logg.substr(6, 5));
+
+// const num = 12.2543;
+
+// console.log(Math.round(num));
+
+// const test = '234.32543px';
+
+// console.log(parseInt(test));
+
+// console.log(parseFloat(test));
+
